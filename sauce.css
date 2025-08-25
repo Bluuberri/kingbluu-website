@@ -1,0 +1,68 @@
+/* Importing a clean, approachable font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif; /* friendlier than Arial */
+  background: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* centers all text */
+}
+
+header {
+  background: #738583;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+}
+
+.header-img {
+  margin-top: 15px;
+  max-width: 300px;   /* keeps it from being HUGE */
+  width: 100%;        /* responsive for phones */
+  border-radius: 12px; /* optional, makes edges rounded */
+}
+
+a {
+  color: #1da1f2; /* Twitter blue vibe */
+  text-decoration: none; /* removes underline */
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ff4081; /* fun pink hover */
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2.5rem;      /* bigger headline */
+  transition: transform 0.15s ease-in-out; /* smooth grow/shrink */
+  display: inline-block;  /* so transform behaves nicely */
+}
+
+h1:hover {
+  transform: scale(1.2); /* grows 10% bigger */
+}
+
+h2 a {
+  color: #ff9800;            /* nice orange pop */
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+h2 a:hover {
+  color: #e65100;            /* darker orange on hover */
+  text-decoration: underline;
+}
+
